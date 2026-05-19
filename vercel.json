@@ -1,12 +1,9 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/:code([A-Z]{2}[0-9]{3})",
-      "destination": "https://pranko-backend.onrender.com/:code",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
+      "destination": "https://pranko-backend.onrender.com/:code"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
